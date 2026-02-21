@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="./scripts/abilities.js" type="module"></script>
     
     <title>Portfolio</title>
 </head>
@@ -77,31 +78,18 @@
         </section>
         <section class="flex flex-col justify-center items-center gap-25"><!--My skills-->
             <h2 class="text-center text-6xl text-highlight">MY SKILLS</h2>
-            <article class="grid grid-cols-6 w-[90vw] gap-2">
-                <img src="img/html-5.png" alt="HMTL" loading="lazy" class="px-10 py-15 bg-deepBlue rounded-2xl hover:px-5 hover:py-10">
-                <img src="img/css-3.png" alt="CSS" loading="lazy" class="px-10 py-15 bg-deepBlue rounded-2xl hover:px-5 hover:py-10">
-                <img src="img/js.png" alt="JavaScript" loading="lazy" class="px-10 py-15 bg-deepBlue rounded-2xl hover:px-5 hover:py-10">
-                <img src="img/react.png" alt="React" loading="lazy" class="px-10 py-15 bg-deepBlue rounded-2xl hover:px-5 hover:py-10">
-                <img src="img/next.webp" alt="Next" loading="lazy" class="px-10 py-15 bg-deepBlue rounded-2xl hover:px-5 hover:py-10">
-                <img src="img/nodejs.png" alt="Node js" loading="lazy" class="px-10 py-15 bg-deepBlue rounded-2xl hover:px-5 hover:py-10">
-                <img src="img/java.png" alt="Tailwind" loading="lazy" class="px-10 py-15 bg-deepBlue rounded-2xl hover:px-5 hover:py-10">
-                <img src="img/vuejs.png" alt="Vue js" loading="lazy" class="px-10 py-15 bg-deepBlue rounded-2xl hover:px-5 hover:py-10">
-                <div class="row-start-1 row-end-3 col-start-5 col-end-7 bg-deepBlue rounded-2xl flex flex-col justify-center items-center p-14"> <!--4 years experience-->
-                    <p class="text-center text-6xl font-bold mb-5">4</p>
-                    <p class="text-2xl text-center font-bold">Years Experience Working</p>
+            <article class="grid grid-cols-3 w-[90vw] gap-2">
+                <div id="mainSkills" class="col-start-1 col-end-3 grid grid-cols-4 gap-2">
+                </div>
+                <div class="row-start-1 row-end-3 col-start-3 bg-deepBlue rounded-2xl flex flex-col justify-center items-center p-14"> <!--4 years experience-->
+                    <p id="percentageSkill" class="text-center text-6xl font-bold mb-5">4</p>
+                    <p id="skillName" class="text-2xl text-center font-bold">Years Experience Working</p>
                     <button class="bg-highlight text-dark rounded-2xl px-2 py-1 font-bold my-5 hover:px-3 hover:py-2 uppercase">Download My CV</button>
                 </div>
             </article>
             <article class="bg-deepBlue rounded-2xl flex flex-col w-[90vw] p-5 "><!--Additional skills-->
                 <h3 class="text-center text-highlight text-4xl mb-10 uppercase">Additional Skills</h3>
-                <div class="grid grid-cols-7 px-10">
-                    <img src="img/angular.png" alt="Angular" loading="lazy" class="p-5 hover:bg-dark/20 hover:rounded-2xl">
-                    <img src="img/bootstrap.png" alt="Bootstrap" loading="lazy" class="p-5 hover:bg-dark/20 hover:rounded-2xl">
-                    <img src="img/c++.png" alt="C++" loading="lazy" class="p-5 hover:bg-dark/20 hover:rounded-2xl">
-                    <img src="img/c-sharp.png" alt="C-sharp" loading="lazy" class="p-5 hover:bg-dark/20 hover:rounded-2xl">
-                    <img src="img/github.png" alt="Github" loading="lazy" class="p-5 hover:bg-dark/20 hover:rounded-2xl">
-                    <img src="img/php.png" alt="PHP" loading="lazy" class="p-5 hover:bg-dark/20 hover:rounded-2xl">
-                    <img src="img/python.png" alt="Python" loading="lazy" class="p-5 hover:bg-dark/20 hover:rounded-2xl">
+                <div id="additionalSkills" class="grid grid-cols-7 px-10">
                 </div>
             </article>
         </section>

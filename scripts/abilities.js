@@ -72,6 +72,8 @@ const additionalAbilities = [
     },
 ]
 
+// to add each img from array
+
 let additionalSkills = document.querySelector("#additionalSkills")
 
 function additionalSkillsImg (array) {
@@ -85,6 +87,8 @@ function additionalSkillsImg (array) {
 additionalSkillsImg(additionalAbilities)
 
 // To add each img from array
+
+let mainSkills = document.querySelector("#mainSkills")
 function mainSkillsImg (array) {
     for (let i = 0; i < array.length; i++) {
     mainSkills.innerHTML += `
@@ -93,7 +97,13 @@ function mainSkillsImg (array) {
 }
 }
 
+mainSkillsImg(mainAbilities)
+
 // To get an addEventListener per each img
+
+let percentageSkill = document.querySelector("#percentageSkill")
+let skillName = document.querySelector("#skillName")
+
 function percentageAndName(array) {
     for (let i = 0; i < array.length; i++) {
     let img = document.querySelector(`#img${array[i].name}`)
@@ -108,12 +118,7 @@ function percentageAndName(array) {
 }
 }
 
-let mainSkills = document.querySelector("#mainSkills")
-mainSkillsImg(mainAbilities)
 
-
-let percentageSkill = document.querySelector("#percentageSkill")
-let skillName = document.querySelector("#skillName")
 percentageAndName(mainAbilities)
 
 

@@ -1,47 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/styles.css" />
     <script src="../scripts/hamburguer-buttom.js" type="module"></script>
     <script src="../scripts/project.js" type="module"></script>
     <title>Projects</title>
 </head>
-<body class="bg-dark text-light ">
+
+<body class="bg-dark text-light">
     <header class="flex items-center justify-between">
         <a href="../index.html" class="px-5 py-2">
-            <img src="../img/mc.png" alt="mc letters" loading="lazy" class="w-11"> <!--header's img-->
+            <img src="../img/mc.png" alt="mc letters" loading="lazy" class="w-11" />
+            <!--header's img-->
         </a>
-        <button id="hambuger-button" class="px-5 py-2 text-2xl hover:text-highlight sm:hidden">☰</button>
+        <button id="hambuger-button" class="px-5 py-2 text-2xl hover:text-highlight sm:hidden">
+            ☰
+        </button>
         <nav class="hidden sm:block w-[60vw]">
             <ul class="hidden sm:flex sm:justify-evenly">
-                <li><a href="../index.html" class="hover:text-neonGreen uppercase" >Home</a></li>
-                <li><a href="##" class="hover:text-neonGreen uppercase" >About Me</a></li> 
-                <li><a href="##" class="hover:text-neonGreen uppercase">Skills</a></li>
-
+                <li>
+                    <a href="../index.html" class="hover:text-neonGreen uppercase">Home</a>
+                </li>
+                <li>
+                    <a href="../index.html#whoAmI" class="hover:text-neonGreen uppercase">About Me</a>
+                </li>
+                <li>
+                    <a href="../index.html#skills" class="hover:text-neonGreen uppercase">Skills</a>
+                </li>
             </ul>
         </nav>
-        <div  class="hidden sm:block hover:text-neonGreen px-5">
-            <button class="flex items-center justify-center border px-2 gap-2 rounded-2xl uppercase"> <!--Contact-->
+        <div class="hidden sm:block hover:text-neonGreen px-5">
+            <a href="../index.html#contactMe" class="flex items-center justify-center border px-2 gap-2 rounded-2xl uppercase">
+                <!--Contact-->
                 Contact
-                <img src="../img/top-right.png" alt="top right arrow" loading="lazy" class="w-5 bg-highlight p-1 rounded-4xl ">
-            </button>
+                <img src="../img/top-right.png" alt="top right arrow" loading="lazy"
+                    class="w-5 bg-highlight p-1 rounded-4xl" />
+            </a>
         </div>
     </header>
     <nav id="nav" class="hidden">
         <ul class="flex items-center justify-evenly gap-3 p-2 sm:hidden">
-            <li><a href="../index.html" class="hover:text-neonGreen uppercase" >Home</a></li>
-            <li><a href="##" class="hover:text-neonGreen uppercase" >About Me</a></li> 
-            <li><a href="##" class="hover:text-neonGreen uppercase">Skills</a></li>
-            <li><a href="" class="hover:text-neonGreen uppercase">Contact</a></li>
+            <li>
+                <a href="../index.html" class="hover:text-neonGreen uppercase">Home</a>
+            </li>
+            <li>
+                <a href="../index.html#whoAmI" class="hover:text-neonGreen uppercase">About Me</a>
+            </li>
+            <li><a href="../index.html#skills" class="hover:text-neonGreen uppercase">Skills</a></li>
+            <li><a href="../index.html#contactMe" class="hover:text-neonGreen uppercase">Contact</a></li>
         </ul>
     </nav>
     <main>
-
+        <h1 class="text-center text-2xl text-highlight font-bold">Projects</h1>
+        <section id="cards_project_container" class="gap-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+        </section>
     </main>
-    <footer class=" p-10">
-        <p class="text-center"> Copyright ©2026 </p>
+    <footer class="p-10">
+        <p class="text-center">Copyright ©2026</p>
     </footer>
 </body>
+
 </html>

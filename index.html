@@ -16,24 +16,24 @@
         <button id="hambuger-button" class="px-5 py-2 text-2xl hover:text-highlight sm:hidden">☰</button>
         <nav class="hidden sm:block w-[60vw]">
             <ul class="hidden sm:flex sm:justify-evenly">
-                <li><a href="##" class="hover:text-neonGreen uppercase" >About Me</a></li> 
-                <li><a href="##" class="hover:text-neonGreen uppercase">Skills</a></li>
+                <li><a href="#whoAmI" class="hover:text-neonGreen uppercase" >About Me</a></li> 
+                <li><a href="#skills" class="hover:text-neonGreen uppercase">Skills</a></li>
                 <li><a href="./pages/project.html" class="hover:text-neonGreen uppercase">Projects</a></li>
             </ul>
         </nav>
         <div  class="hidden sm:block hover:text-neonGreen px-5"> <!--Contact-->
-            <button class="flex items-center justify-center border px-2 gap-2 rounded-2xl uppercase">
+            <a href="#contactMe" class="flex items-center justify-center border px-2 gap-2 rounded-2xl uppercase">
                 Contact
                 <img src="./img/top-right.png" alt="top right arrow" loading="lazy" class="w-5 bg-highlight p-1 rounded-4xl ">
-            </button>
+            </a>
         </div>
     </header>
     <nav id="nav" class="hidden">
         <ul class="flex items-center justify-evenly gap-3 p-2 sm:hidden">
-            <li><a href="##" class="hover:text-neonGreen uppercase" >About Me</a></li> 
-            <li><a href="##" class="hover:text-neonGreen uppercase">Skills</a></li>
+            <li><a href="#whoAmI" class="hover:text-neonGreen uppercase" >About Me</a></li> 
+            <li><a href="#skills" class="hover:text-neonGreen uppercase">Skills</a></li>
             <li><a href="./pages/project.html" class="hover:text-neonGreen uppercase">Projects</a></li>
-            <li><a href="" class="hover:text-neonGreen uppercase">Contact</a></li>
+            <li><a href="#contactMe" class="hover:text-neonGreen uppercase">Contact</a></li>
         </ul>
     </nav>
     <main>
@@ -51,7 +51,7 @@
                 <p class="text-sm text-softGray">In this seccion will be included a review from a client, based on service provided.</p>
             </article>
             <img src="img/marvin.png" alt="Marvin's Photo" loading="lazy" class="z-10">
-            <button class="absolute bg-highlight text-dark rounded-2xl py-1 px-4 font-bold border-2 bottom-20 z-10 hover:py-2 hover:px-5 uppercase">My Projects</button>
+            <a href="./pages/project.html" class="absolute bg-highlight text-dark rounded-2xl py-1 px-4 font-bold border-2 bottom-20 z-10 hover:py-2 hover:px-5 uppercase">My Projects</a>
             <article class="w-60 absolute top-100 right-0 transform-[matrix(1,0.15,0,1,0,0)] p-4 rounded-2xl bg-deepBlue z-10 shadow-[0_0_30px_10px_#2f3a4e]"> <!--expertice-->
                 <h2 class="text-softGray uppercase">My Expertise</h2>
                 <div class="flex">
@@ -77,17 +77,17 @@
                 </div>
             </article>
         </section>
-        <section class="text-center flex justify-center items-center py-50 relative"><!--who am i -->
+        <section id="whoAmI" class="text-center flex justify-center items-center py-50 relative"><!--who am i -->
             <img src="img/marvin_dos.jpg" alt="Marvin's image" class="absolute w-15 h-20 left-40 top-40 -rotate-20 rounded-2xl shadow-[-15px_-15px_25px_15px_#2f3a4e]">
             <img src="img/marvin_tres.png" alt="Marvin's image" class="absolute w-25 h-35 left-20 bottom-70 rotate-20 rounded-2xl shadow-[0_0_25px_15px_#2f3a4e]" >
             <img src="img/marvin_tres.png" alt="Marvin's image" class="absolute w-25 h-35  -rotate-20 right-30 top-70 rounded-2xl shadow-[-15px_-15px_50px_15px_#2f3a4e]">
             <article class="w-100">
                 <h2 class="text-6xl text-highlight mb-10">WHO AM I ?</h2>
-                <p>I am a full-stack developer specializing in front-end development, with experience creating modern and functional user interfaces. I work with technologies such as React, Vite, Tailwind CSS, HTML and JavaScript, as well as Node.js for server-side development<br> I enjoy building efficient, scalable applications with a good user experience, paying close attention to both the design and the logic behind each project.<br>Also, programming is my passion, so I constantly work on my academic growth to continue expanding my knowledge in this field</p>
-                <button class="bg-highlight py-1 px-4 mt-5 rounded-2xl text-dark font-bold hover:px-5 hover:py-2 uppercase">Show My Projects</button>
+                <p class="mb-10">I am a full-stack developer specializing in front-end development, with experience creating modern and functional user interfaces. I work with technologies such as React, Vite, Tailwind CSS, HTML and JavaScript, as well as Node.js for server-side development<br> I enjoy building efficient, scalable applications with a good user experience, paying close attention to both the design and the logic behind each project.<br>Also, programming is my passion, so I constantly work on my academic growth to continue expanding my knowledge in this field</p>
+                <a href="./pages/project.html" class="bg-highlight py-1 px-4 mt-5 rounded-2xl text-dark font-bold hover:px-5 hover:py-2 uppercase">Show My Projects</a>
             </article>
         </section>
-        <section class="flex flex-col justify-center items-center gap-25"><!--My skills-->
+        <section id="skills" class="flex flex-col justify-center items-center gap-25"><!--My skills-->
             <h2 class="text-center text-6xl text-highlight">MY SKILLS</h2>
             <article class="grid grid-cols-3 w-[90vw] gap-2">
                 <div id="mainSkills" class="col-start-1 col-end-3 grid grid-cols-4 gap-2">
@@ -95,7 +95,7 @@
                 <div class="row-start-1 row-end-3 col-start-3 bg-deepBlue rounded-2xl flex flex-col justify-center items-center p-14"> <!--4 years experience-->
                     <p id="percentageSkill" class="text-center text-6xl font-bold mb-5">4</p>
                     <p id="skillName" class="text-2xl text-center font-bold">Years Experience Working</p>
-                    <button class="bg-highlight text-dark rounded-2xl px-2 py-1 font-bold my-5 hover:px-3 hover:py-2 uppercase">Download My CV</button>
+                    <a href="img/cv.pdf" download="cv.pdf" class="bg-highlight text-dark rounded-2xl px-2 py-1 font-bold my-5 hover:px-3 hover:py-2 uppercase">Download My CV</a>
                 </div>
             </article>
             <article class="bg-deepBlue rounded-2xl flex flex-col w-[90vw] p-5 "><!--Additional skills-->
@@ -107,7 +107,7 @@
         <section class="flex justify-center items-center my-10 py-20 "><!--The works -->
             <div class="relative w-[45vw]">
                 <p class="text-6xl font-bold p-10 uppercase -mt-20">The works closest to my heart</p>
-                <button class="absolute bg-highlight rounded-2xl text-dark font-bold px-6 py-1 right-[-5%] -bottom-10  z-10 hover:px-7 hover:py-2 uppercase">Show My Projects</button>
+                <a href="./pages/project.html" class="absolute bg-highlight rounded-2xl text-dark font-bold px-6 py-1 right-[-5%] -bottom-10  z-10 hover:px-7 hover:py-2 uppercase">Show My Projects</a>
             </div>
             <div class="flex w-[45vw] h-100 gap-2">
                 <div class="w-50 h-full hover:w-100 rounded-2xl overflow-hidden">
@@ -121,12 +121,14 @@
                 </div>
             </div>
         </section>
-        <section class="bg-light flex flex-col justify-center items-center gap-4 py-20 rounded-2xl"><!--Let's chat-->
+        <section id="contactMe" class="bg-light flex flex-col justify-center items-center  py-20 rounded-2xl"><!--Let's chat-->
             <h2 class="text-dark m-20 text-6xl font-bold uppercase">Let's have a chat</h2>
-            <input type="text" placeholder="Your Name" class="bg-gray-200 text-gray-800 w-[80vw] p-5 rounded-2xl hover:border">
-            <input type="email" placeholder="Email Address" class="bg-gray-200 text-gray-800 w-[80vw] p-5 rounded-2xl hover:border">
-            <textarea name="textarea" placeholder="Chat Here" class="bg-gray-200 text-gray-800 w-[80vw] p-5 rounded-2xl hover:border"></textarea>
+            <form class="flex flex-col gap-4" action="mailto:correo@correo.com">
+            <input type="text" placeholder="Your Name" required class="bg-gray-200 text-gray-800 w-[80vw] p-5 rounded-2xl hover:border ">
+            <input type="email" placeholder="Email Address" required class="bg-gray-200 text-gray-800 w-[80vw] p-5 rounded-2xl hover:border hover:text-dark placeholder:text-softGray invalid:text-red-700">
+            <textarea name="textarea" placeholder="Chat Here" required class="bg-gray-200 text-gray-800 w-[80vw] p-5 rounded-2xl hover:border"></textarea>
             <button class="bg-highlight text-dark w-[80vw] p-5 rounded-2xl hover:bg-dark hover:text-highlight font-bold text-2xl">Submit Here</button>
+            </form>
         </section>
     </main>
     <footer class=" p-10">

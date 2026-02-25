@@ -2,73 +2,73 @@ const mainAbilities = [
     {
         name: "HTML",
         skillLevel: "90%",
-        img: "/img/html-5.png",
+        img: "./public/img/html-5.png",
     },
     {
         name: "CSS",
         skillLevel: "80%",
-        img: "/img/css-3.png",
+        img: "./public/img/css-3.png",
     },
     {
         name: "JavaScript",
         skillLevel: "70%",
-        img: "/img/js.png",
+        img: "./public/img/js.png",
     },
     {
         name: "React",
         skillLevel: "60%",
-        img: "/img/react.png",
+        img: "./public/img/react.png",
     },
     {
         name: "Next",
         skillLevel: "70%",
-        img: "/img/next.webp",
+        img: "./public/img/next.webp",
     },
     {
         name: "Node",
         skillLevel: "80%",
-        img: "/img/nodejs.png",
+        img: "./public/img/nodejs.png",
     },
     {
         name: "Java",
         skillLevel: "80%",
-        img: "/img/java.png",
+        img: "./public/img/java.png",
     },
     {
         name: "Vue",
         skillLevel: "75%",
-        img: "/img/vuejs.png",
+        img: "./public/img/vuejs.png",
     },
 ]
 
 const additionalAbilities = [
     {
         name: "Angular",
-        img: "/img/angular.png",
+        img: "./public/img/angular.png",
     },
     {
         name: "Bootstrap",
-        img: "/img/bootstrap.png",
+        img: "./public/img/bootstrap.png",
     },
     {
         name: "C++",
-        img: "/img/c++.png",
+        img: "./public/img/c++.png",
     },
     {
         name: "Github",
-        img: "/img/github.png",
+        img: "./public/img/github.png",
     },
     {
         name: "PHP",
-        img: "/img/php.png",
+        img: "./public/img/php.png",
     },
     {
         name: "Python",
-        img: "/img/python.png",
+        img: "./public/img/python.png",
     },
     {
         name: "C#",
-        img: "/img/c-sharp.png"
+        img: "./public/img/c-sharp.png"
     },
 ]
 

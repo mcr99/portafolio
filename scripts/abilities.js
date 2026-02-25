@@ -2,42 +2,42 @@ const mainAbilities = [
     {
         name: "HTML",
         skillLevel: "90%",
-        img: "./public/img/html-5.png",
+        img: "public/img/html-5.png",
     },
     {
         name: "CSS",
         skillLevel: "80%",
-        img: "./public/img/css-3.png",
+        img: "public/img/css-3.png",
     },
     {
         name: "JavaScript",
         skillLevel: "70%",
-        img: "./public/img/js.png",
+        img: "public/img/js.png",
     },
     {
         name: "React",
         skillLevel: "60%",
-        img: "./public/img/react.png",
+        img: "public/img/react.png",
     },
     {
         name: "Next",
         skillLevel: "70%",
-        img: "./public/img/next.webp",
+        img: "public/img/next.webp",
     },
     {
         name: "Node",
         skillLevel: "80%",
-        img: "./public/img/nodejs.png",
+        img: "public/img/nodejs.png",
     },
     {
         name: "Java",
         skillLevel: "80%",
-        img: "./public/img/java.png",
+        img: "public/img/java.png",
     },
     {
         name: "Vue",
         skillLevel: "75%",
-        img: "./public/img/vuejs.png",
+        img: "public/img/vuejs.png",
     },
 ]
 

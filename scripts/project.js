@@ -2,47 +2,47 @@ const projects = [
     {
         title: "Presentation Card",
         description: "This is a card where you could show your information or even a card where you could add an event information",
-        img: "../public/img/1project.png",
+        img: "public/img/1project.png",
     },
     {
         title: "QR Code Card",
         description: "This is a card where you could add specific  information, and for more information to scan the QR code",
-        img: "../public/img/2project.png"
+        img: "public/img/2project.png"
     },
     {
         title: "Product Registration",
         description: "This is a program where you could enter product details and it will be stored and shown as a table",
-        img: "../public/img/3project.png"
+        img: "public/img/3project.png"
     },
     {
         title: "Presentation Card",
         description: "This is a card where you could show your information or even a card where you could add an event information",
-        img: "../public/img/1project.png",
+        img: "public/img/1project.png",
     },
     {
         title: "QR Code Card",
         description: "This is a card where you could add specific  information, and for more information to scan the QR code",
-        img: "../public/img/2project.png"
+        img: "public/img/2project.png"
     },
     {
         title: "Product Registration",
         description: "This is a program where you could enter product details and it will be stored and shown as a table",
-        img: "../public/img/3project.png"
+        img: "public/img/3project.png"
     },
     {
         title: "Presentation Card",
         description: "This is a card where you could show your information or even a card where you could add an event information",
-        img: "../public/img/1project.png",
+        img: "public/img/1project.png",
     },
     {
         title: "QR Code Card",
         description: "This is a card where you could add specific  information, and for more information to scan the QR code",
-        img: "../public/img/2project.png"
+        img: "public/img/2project.png"
     },
     {
         title: "Product Registration",
         description: "This is a program where you could enter product details and it will be stored and shown as a table",
-        img: "../public/img/3project.png"
+        img: "public/img/3project.png"
     },
 ]
 
